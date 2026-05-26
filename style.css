@@ -76,7 +76,6 @@ th, td {
   padding: 0.5rem;
 }
 body {
-  color: #ffffff;
   background-image: url("images/VALO.jpg");
   background-size: cover;       /* 画面いっぱいに広げる */
   background-position: center;  /* 中央に配置 */
