@@ -3,7 +3,7 @@
 -------------------- */
 
 :root {
-  --theme-color: #00a0a0;
+  --theme-color: #FF4655; /* VALORANT レッド */
 }
 
 * {
@@ -24,9 +24,14 @@ body {
   background-position: center;
   background-attachment: fixed;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+
+  /* VALORANT 風フォント */
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
 
-/* 背景フィルター */
+/* 背景フィルター（読みやすさUP） */
 body::before {
   content: "";
   position: fixed;
@@ -34,68 +39,4 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.45);
-  z-index: -1;
-}
-
-/* --------------------
-        見出し
--------------------- */
-
-h1, h2, h3 {
-  color: #ffffff;
-  border-bottom: dashed 0.1em rgba(255, 255, 255, 0.7);
-}
-
-/* --------------------
-        リンク
--------------------- */
-
-a {
-  color: #5ee7ff;
-  text-decoration: none;
-}
-a:hover {
-  color: #ffffff;
-}
-
-/* --------------------
-        リスト
--------------------- */
-
-ul {
-  list-style: none;
-}
-li:before {
-  content: "★";
-  color: #5ee7ff;
-}
-
-/* --------------------
-          表
--------------------- */
-
-table {
-  border-spacing: 0;
-  border-collapse: collapse;
-  border: solid 1px rgba(255,255,255,0.2);
-  min-width: 70%;
-}
-
-tr {
-  background-color: rgba(0, 0, 0, 0.4);
-}
-
-tr:nth-child(2n) {
-  background-color: rgba(0, 0, 0, 0.25);
-}
-
-th {
-  background: rgba(0, 160, 160, 0.8);
-  color: #fff;
-}
-
-th, td {
-  border: solid 1px rgba(255,255,255,0.2);
-  padding: 0.5rem;
-}
+  background
