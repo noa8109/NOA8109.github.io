@@ -1,1 +1,1 @@
-("images/IMG_2813.jpg")
+!["代替テキスト"]("images/IMG_2813.jpg")
